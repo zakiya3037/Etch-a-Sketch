@@ -1,0 +1,26 @@
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#resize-button {
+  margin: 20px;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+#grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 960px;
+  height: 960px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+}
+
+.square {
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  background-color: white;
+}
